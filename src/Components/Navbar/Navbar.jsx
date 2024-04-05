@@ -1,37 +1,39 @@
 import React from 'react'
 import logo from '../../assets/Logo/Calendly-logo.png'
+import icon from '../../assets/Icon/down-arrow.png'
+import { FaChevronDown } from "react-icons/fa";
 
 const Navbar = () => {
   return (
     <div>
-        <header className="p-4 dark:bg-gray-100 dark:text-gray-800">
-	<div className="container flex justify-between h-16 mx-auto">
+        <header className=" dark:text-gray-800">
+	<div className="container flex justify-between h-16  mx-auto">
 		<a rel="noopener noreferrer" href="#" aria-label="Back to homepage" className="flex items-center p-2">
 			<img src={logo} alt="" />
 		</a>
 		<ul className="items-stretch hidden space-x-3 lg:flex">
 			<li className="flex">
-				<a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Individuals</a>
+				<a rel="noopener noreferrer" href="#" className="flex items-center pl-6 font-semibold">Individuals</a>
 			</li>
 			<li className="flex">
-				<a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Teams</a>
+				<a rel="noopener noreferrer" href="#" className="flex items-center pl-6 font-semibold">Teams</a>
 			</li>
 			<li className="flex">
-				<a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Enterprise</a>
+				<a rel="noopener noreferrer" href="#" className="flex items-center pl-6 font-semibold">Enterprise</a>
+			</li>
+			<li className="flex items-center justify-center">
+				<a rel="noopener noreferrer" href="#" className="flex items-center pl-6 font-semibold">Products </a> <FaChevronDown className="pt-1 h-3 w-3" />
 			</li>
 			<li className="flex">
-				<a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Products</a>
+				<a rel="noopener noreferrer" href="#" className="flex items-center pl-6 font-semibold">Pricing</a>
 			</li>
-			<li className="flex">
-				<a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Pricing</a>
-			</li>
-			<li className="flex">
-				<a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Resources</a>
+			<li className="flex items-center justify-center">
+				<a rel="noopener noreferrer" href="#" className="flex font-semibold pl-6  ">Resources</a> <FaChevronDown  className="pt-1 h-3 w-3" alt="" />
 			</li>
 		</ul>
 		<div className="items-center flex-shrink-0 hidden lg:flex">
-			<button className="self-center px-8 py-3 rounded">Login</button>
-			<button className="self-center px-8 py-3 font-semibold rounded dark:bg-violet-600 dark:text-gray-50">Get Started</button>
+			<button className="self-center px-8 py-3 rounded-full">Login</button>
+			<button className="self-center px-8 py-3 font-semibold rounded-full dark:bg-violet-600 dark:text-gray-50">Get Started</button>
 		</div>
 		<button className="p-4 lg:hidden">
 			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6 dark:text-gray-800">
