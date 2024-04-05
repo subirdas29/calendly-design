@@ -7,10 +7,10 @@ const Navbar = () => {
   return (
     <div>
         <header className=" dark:text-gray-800">
-	<div className="container flex justify-between h-16  mx-auto">
-		<a rel="noopener noreferrer" href="#" aria-label="Back to homepage" className="flex items-center p-2">
-			<img src={logo} alt="" />
-		</a>
+	<div className="flex items-center justify-between  mx-auto px-8 py-4">
+		
+            <img src={logo} className='h-8' alt="" />
+            
 		<ul className="items-stretch hidden space-x-3 lg:flex">
 			<li className="flex">
 				<a rel="noopener noreferrer" href="#" className="flex items-center pl-6 font-semibold">Individuals</a>
@@ -32,7 +32,7 @@ const Navbar = () => {
 			</li>
 		</ul>
 		<div className="items-center flex-shrink-0 hidden lg:flex">
-			<button className="self-center px-8 py-3 rounded-full">Login</button>
+			<button className="self-center px-8 py-3 rounded-full font-semibold">Login</button>
 			<button className="self-center px-8 py-3 font-semibold rounded-full dark:bg-violet-600 dark:text-gray-50">Get Started</button>
 		</div>
 		<button className="p-4 lg:hidden">
