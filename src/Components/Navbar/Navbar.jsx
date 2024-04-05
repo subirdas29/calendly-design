@@ -1,6 +1,5 @@
 import React from 'react'
 import logo from '../../assets/Logo/Calendly-logo.png'
-import icon from '../../assets/Icon/down-arrow.png'
 import { FaChevronDown } from "react-icons/fa";
 
 const Navbar = () => {
