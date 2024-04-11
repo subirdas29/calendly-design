@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "icon": "https://fakeicon.com/12345.png",
+      "title": "Exciting Adventure",
+      "description": "Embark on a thrilling journey filled with mysteries and challenges.",
+      "link": "https://fakeadventurelink.com/12345"
+    },
+    {
+      "id": 2,
+      "icon": "https://fakeicon.com/67890.png",
+      "title": "Delicious Recipes",
+      "description": "Discover mouth-watering recipes from around the world and become a culinary expert.",
+      "link": "https://fakerecipeslink.com/67890"
+    },
+    {
+      "id": 3,
+      "icon": "https://fakeicon.com/24680.png",
+      "title": "Fitness Revolution",
+      "description": "Join the fitness revolution and transform your body with our personalized workout plans.",
+      "link": "https://fakefitnesslink.com/24680"
+    },
+    {
+      "id": 4,
+      "icon": "https://fakeicon.com/13579.png",
+      "title": "Artistic Inspiration",
+      "description": "Unleash your creativity and find inspiration from masterpieces across different eras.",
+      "link": "https://fakeartlink.com/13579"
+    },
+    {
+      "id": 5,
+      "icon": "https://fakeicon.com/54321.png",
+      "title": "Mindful Meditation",
+      "description": "Achieve inner peace and tranquility through guided meditation sessions.",
+      "link": "https://fakemeditationlink.com/54321"
+    },
+    {
+      "id": 6,
+      "icon": "https://fakeicon.com/98765.png",
+      "title": "Tech Trends",
+      "description": "Stay updated with the latest in technology and innovation from around the globe.",
+      "link": "https://faketechlink.com/98765"
+    }
+  ]
+  

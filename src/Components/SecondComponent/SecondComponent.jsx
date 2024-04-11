@@ -1,6 +1,13 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 const SecondComponent = () => {
+    const [allCards,setAllCards] = useState([]);
+
+    useEffect(()=>{
+        fetch('Card.json')
+        .then(res=>res.json())
+        .then(data => setAllCards(data))
+    },[])
   return (
     <div className='text-center my-20'>
       <p className='text-sm text-[#006BFE] font-semibold'>SOLUTION</p>
