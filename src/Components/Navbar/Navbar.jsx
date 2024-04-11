@@ -32,7 +32,7 @@ const Navbar = () => {
 		</ul>
 		<div className="items-center flex-shrink-0 hidden lg:flex">
 			<button className="self-center px-8 py-3 rounded-full font-semibold">Login</button>
-			<button className="self-center px-8 py-3 font-semibold rounded-full dark:bg-violet-600 dark:text-gray-50">Get Started</button>
+			<button className="self-center px-8 py-3 font-semibold rounded-full dark:bg-[#006BFE] dark:text-gray-50">Get Started</button>
 		</div>
 		<button className="p-4 lg:hidden">
 			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6 dark:text-gray-800">
