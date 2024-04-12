@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { FaAngleRight } from "react-icons/fa6";
 
 const SecondComponentCards = ({card}) => {
-	const {icon,title} = card;
+	const {icon,title,description} = card;
   return (
 
      <div className="p-6 rounded-md shadow-md dark:bg-gray-50 dark:text-gray-900 text-left">
@@ -11,8 +11,8 @@ const SecondComponentCards = ({card}) => {
 		
 		<h2 className="text-xl font-semibold tracking-wide">{title}</h2>
 	</div>
-	<p className="dark:text-gray-800">Mauris et lorem at elit tristique dignissim et ullamcorper elit. In sed feugiat mi. Etiam ut lacinia dui.</p>
-	<p className=''>Learn more > </p>
+	<p className="dark:text-gray-800">{description}</p>
+	<p className=''>Learn more </p>
 </div>
 
   )

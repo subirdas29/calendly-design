@@ -3,43 +3,42 @@
       "id": 1,
       "icon": "https://i.ibb.co/QCPwx0T/target-removebg-preview.png",
       "title": "Sales",
-      "description": "Embark on a thrilling journey filled with mysteries and challenges.",
-      "link": "Learn more"
+      "description": "Spend more time selling, and less time on admin. Shorten your sales cycle by letting prospects schedule while they're in peak buying mode."
+      
     },
     {
       "id": 2,
       "icon": "https://fakeicon.com/67890.png",
       "title": "Recuiting",
-      "description": "Discover mouth-watering recipes from around the world and become a culinary expert.",
-      "link": "Learn more"
+      "description": "Simplify recruitment by smoothing every aspect of the interview scheduling process, including automated follow-ups."
+      
     },
     {
       "id": 3,
       "icon": "https://fakeicon.com/24680.png",
       "title": "Education",
-      "description": "Join the fitness revolution and transform your body with our personalized workout plans.",
-      "link": "Learn more"
+      "description": "Control your office hours, and empower students and parents to schedule appointments easily."
+      
     },
     {
       "id": 4,
       "icon": "https://fakeicon.com/13579.png",
       "title": "Revenue Operation",
-      "description": "Unleash your creativity and find inspiration from masterpieces across different eras.",
-      "link": "Learn more"
+      "description": "Streamline meeting and activity data. Calendly's native integrations with Salesforce and HubSpot ensure up-to-date reporting."
+      
     },
     {
       "id": 5,
       "icon": "https://fakeicon.com/54321.png",
       "title": "Marketing",
-      "description": "Achieve inner peace and tranquility through guided meditation sessions.",
-      "link": "Learn more"
+      "description": "Convert interested prospects into scheduled meetings and demos faster.Skip steps that cause customer friction."
+      
     },
     {
       "id": 6,
       "icon": "https://fakeicon.com/98765.png",
       "title": "Customer Success",
-      "description": "Stay updated with the latest in technology and innovation from around the globe.",
-      "link": "Learn more"
+      "description": "Offer exceptional support:Your clients will be delighted with one-click scheduling and increased responsiveness."
     }
   ]
   
