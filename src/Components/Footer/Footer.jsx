@@ -62,47 +62,103 @@ const Footer = () => {
 				</div>
 			</div>
 		</div>
-		<div className="grid grid-cols-2 text-sm gap-x-2 gap-y-8 lg:w-2/3 sm:grid-cols-3">
-			<div className="space-y-3">
-				<h3 className="tracking-wide uppercase dark:text-gray-900">Product</h3>
-				<ul className="space-y-1">
+		<div className="grid grid-cols-2 text-sm gap-x-4 gap-y-10 lg:w-2/3 sm:grid-cols-3">
+			<div className="space-y-4">
+				<h3 className="tracking-wide dark:text-gray-900 font-black">About</h3>
+				<ul className="space-y-4">
 					<li>
-						<a rel="noopener noreferrer" href="#">Features</a>
+						<a rel="noopener noreferrer" href="#">About Calendly</a>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="#">Integrations</a>
+						<a rel="noopener noreferrer" href="#">Contact Sales</a>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="#">Pricing</a>
+						<a rel="noopener noreferrer" href="#">Newsroom</a>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="#">FAQ</a>
-					</li>
-				</ul>
-			</div>
-			<div className="space-y-3">
-				<h3 className="tracking-wide uppercase dark:text-gray-900">Company</h3>
-				<ul className="space-y-1">
-					<li>
-						<a rel="noopener noreferrer" href="#">Privacy</a>
+						<a rel="noopener noreferrer" href="#">Careers</a>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="#">Terms of Service</a>
+						<a rel="noopener noreferrer" href="#">Security</a>
 					</li>
 				</ul>
 			</div>
-			<div className="space-y-3">
-				<h3 className="uppercase dark:text-gray-900">Developers</h3>
-				<ul className="space-y-1">
+			
+			<div className="space-y-4">
+				<h3 className="tracking-wide dark:text-gray-900 font-black">Solutions</h3>
+				<ul className="space-y-4">
 					<li>
-						<a rel="noopener noreferrer" href="#">Public API</a>
+						<a rel="noopener noreferrer" href="#">Customer Success</a>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="#">Documentation</a>
+						<a rel="noopener noreferrer" href="#">Sales</a>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="#">Guides</a>
+						<a rel="noopener noreferrer" href="#">Recruiting</a>
 					</li>
+					<li>
+						<a rel="noopener noreferrer" href="#">Information Tecnology</a>
+					</li>
+					<li>
+						<a rel="noopener noreferrer" href="#">Marketing</a>
+					</li>
+				</ul>
+			</div>
+			<div className="space-y-4">
+				<h3 className=" dark:text-gray-900 font-black">Popular Features</h3>
+				<ul className="space-y-4">
+					<li>
+						<a rel="noopener noreferrer" href="#">Embed Calendly</a>
+					</li>
+					<li>
+						<a rel="noopener noreferrer" href="#">Availability</a>
+					</li>
+					<li>
+						<a rel="noopener noreferrer" href="#">Sending Notifications</a>
+					</li>
+					<li>
+						<a rel="noopener noreferrer" href="#">Using Calendly Mobile</a>
+					</li>
+					
+				</ul>
+			</div>
+			<div className="space-y-4">
+				<h3 className=" dark:text-gray-900 font-black">Support</h3>
+				<ul className="space-y-4">
+					<li>
+						<a rel="noopener noreferrer" href="#">Help Center</a>
+					</li>
+					<li>
+						<a rel="noopener noreferrer" href="#">Video Tutorials</a>
+					</li>
+					<li>
+						<a rel="noopener noreferrer" href="#">Cookie Settings</a>
+					</li>
+					
+					
+				</ul>
+			</div>
+			<div className="space-y-4">
+				<h3 className=" dark:text-gray-900 font-black">Add-Ons</h3>
+				<ul className="space-y-4">
+					<li>
+						<a rel="noopener noreferrer" href="#">Download for Chrome</a>
+					</li>
+					<li>
+						<a rel="noopener noreferrer" href="#">Download for Firefox</a>
+					</li>
+					
+					
+					
+				</ul>
+			</div>
+			<div className="space-y-4">
+				<h3 className=" dark:text-gray-900 font-black">Add-Ons</h3>
+				<ul className="space-y-4">
+					<li>
+						<a rel="noopener noreferrer" href="#">Developer Tools</a>
+					</li>
+					
 				</ul>
 			</div>
 			
