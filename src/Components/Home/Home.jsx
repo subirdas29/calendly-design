@@ -3,6 +3,7 @@ import Navbar from '../Navbar/Navbar'
 import FirstComponent from '../FirstComponent/FirstComponent'
 import SecondComponent from '../SecondComponent/SecondComponent'
 import ThirdComponent from '../ThirdComponent/ThirdComponent'
+import Footer from '../Footer/Footer'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <FirstComponent></FirstComponent>
       <SecondComponent></SecondComponent>
       <ThirdComponent></ThirdComponent>
+      <Footer></Footer>
     </div>
   )
 }
