@@ -6,7 +6,7 @@ import youtube from '../../assets/Icon/youtube.svg'
 const Footer = () => {
   return (
     <div>
-      <footer className="px-4 divide-y dark:text-gray-800 mx-20">
+      <footer className="px-4 dark:text-gray-800 mx-20">
 	<div className="container flex flex-col justify-between py-10 gap-14 space-y-8 lg:flex-row lg:space-y-0">
 		<div className="lg:w-1/4">
 			<a rel="noopener noreferrer" href="#" className="flex justify-center space-x-3 lg:justify-start">
@@ -108,7 +108,14 @@ const Footer = () => {
 			
 		</div>
 	</div>
-	<div className="py-6 text-sm text-center dark:text-gray-600">© 1968 Company Co. All rights reserved.</div>
+	<div className="py-6 text-sm text-center dark:text-gray-600 flex justify-between">
+		<div>
+		Copyright Calendly 2022
+		</div>
+		<div>
+		Privacy/Terms and Conditions
+		</div>
+	</div>
 </footer>
     </div>
   )
