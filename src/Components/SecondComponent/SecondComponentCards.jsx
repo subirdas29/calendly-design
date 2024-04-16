@@ -6,13 +6,15 @@ const SecondComponentCards = ({card}) => {
   return (
 
      <div className="p-6 rounded-md shadow-md dark:bg-gray-50 dark:text-gray-900 text-left">
-	<img src={icon} alt="" className='w-8 h-8' />
+	<img src={icon} alt="" className='w-10 h-10' />
 	<div className="mt-4 mb-2">
 		
 		<h2 className="text-xl font-semibold tracking-wide">{title}</h2>
 	</div>
 	<p className="dark:text-gray-800">{description}</p>
-	<p className=''>Learn more </p>
+	<div className='flex  items-center text-[#006BFE] font-bold'>
+	<p className=''>Learn more  </p><FaAngleRight className='pt-1 ml-2' />
+	</div>
 </div>
 
   )

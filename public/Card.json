@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "icon": "https://i.ibb.co/7JBXKLc/Effectieve-aanpak-licht-blauw.png",
+      "icon": "https://i.ibb.co/dLVnSVJ/target.png",
       "title": "Sales",
       "description": "Spend more time selling, and less time on admin. Shorten your sales cycle by letting prospects schedule while they're in peak buying mode."
       
@@ -22,21 +22,21 @@
     },
     {
       "id": 4,
-      "icon": "https://fakeicon.com/13579.png",
+      "icon": "https://i.ibb.co/zXKbdQF/Revenue-Operation.png",
       "title": "Revenue Operation",
       "description": "Streamline meeting and activity data. Calendly's native integrations with Salesforce and HubSpot ensure up-to-date reporting."
       
     },
     {
       "id": 5,
-      "icon": "https://fakeicon.com/54321.png",
+      "icon": "https://i.ibb.co/DbvXf8z/Marketing.png",
       "title": "Marketing",
       "description": "Convert interested prospects into scheduled meetings and demos faster.Skip steps that cause customer friction."
       
     },
     {
       "id": 6,
-      "icon": "https://fakeicon.com/98765.png",
+      "icon": "https://i.ibb.co/V3ccHw5/Customer-success.png",
       "title": "Customer Success",
       "description": "Offer exceptional support:Your clients will be delighted with one-click scheduling and increased responsiveness."
     }

@@ -13,7 +13,7 @@ const SecondComponent = () => {
     <div className='text-center my-20'>
       <p className='text-sm text-[#006BFE] font-semibold'>SOLUTION</p>
       <p className='text-4xl my-5 font-bold'> Calendly can solve your specfic pain points</p>
-      <div className='grid grid-cols-3 gap-6 mx-20'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-6 mx-20'>
       {
         allCards.map(card =><SecondComponentCards key={card.id} card = {card}></SecondComponentCards>)
       }
