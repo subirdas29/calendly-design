@@ -6,24 +6,24 @@ import youtube from '../../assets/Icon/youtube.svg'
 const Footer = () => {
   return (
     <div>
-      <footer className="px-4 dark:text-gray-800 mx-20">
+      <footer className="px-4 dark:text-gray-800 mx-10 md:mx-18">
 	<div className="container flex flex-col justify-between py-10 gap-14 space-y-8 lg:flex-row lg:space-y-0">
 		<div className="lg:w-1/4">
 			<a rel="noopener noreferrer" href="#" className="flex justify-center space-x-3 lg:justify-start">
 				
-				<span className="self-center text-3xl font-bold">Easy <span className='text-[#006BFE] '><br />ahead</span></span>
+				<span className="self-center text-4xl font-black">Easy <span className='text-[#006BFE] '><br className='hidden lg:block' />ahead</span></span>
 			</a>
 			<p className='my-6'>we take the work out of connecting with others so you can accomplish more.</p>
 			<select className='border-2 w-full py-1 rounded-md font-bold px-2'>
   <option value="eng" selected>English</option>
-  <option value="bng">Bangla</option>
+
  
 </select>
 
-<section className="py-6 dark:text-gray-900">
+<section className="py-6 dark:text-gray-900 ">
 	
 		
-		<div className="flex flex-col  flex-shrink-0 mt-6 space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4 ">
+		<div className="flex flex-col justify-center lg:justify-start flex-shrink-0 mt-6 space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4 ">
 		<button className="inline-flex items-center px-3 py-2 rounded-lg dark:bg-black dark:text-gray-50">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" className="fill-current w-7 h-7 dark:text-gray-50">
 					<path d="M 44.527344 34.75 C 43.449219 37.144531 42.929688 38.214844 41.542969 40.328125 C 39.601563 43.28125 36.863281 46.96875 33.480469 46.992188 C 30.46875 47.019531 29.691406 45.027344 25.601563 45.0625 C 21.515625 45.082031 20.664063 47.03125 17.648438 47 C 14.261719 46.96875 11.671875 43.648438 9.730469 40.699219 C 4.300781 32.429688 3.726563 22.734375 7.082031 17.578125 C 9.457031 13.921875 13.210938 11.773438 16.738281 11.773438 C 20.332031 11.773438 22.589844 13.746094 25.558594 13.746094 C 28.441406 13.746094 30.195313 11.769531 34.351563 11.769531 C 37.492188 11.769531 40.8125 13.480469 43.1875 16.433594 C 35.421875 20.691406 36.683594 31.78125 44.527344 34.75 Z M 31.195313 8.46875 C 32.707031 6.527344 33.855469 3.789063 33.4375 1 C 30.972656 1.167969 28.089844 2.742188 26.40625 4.78125 C 24.878906 6.640625 23.613281 9.398438 24.105469 12.066406 C 26.796875 12.152344 29.582031 10.546875 31.195313 8.46875 Z"></path>
@@ -46,7 +46,7 @@ const Footer = () => {
 </section>
 
             <div className="mt-10">
-				<div className="flex justify-start space-x-6">
+				<div className="flex space-x-6 justify-center lg:justify-start">
 				<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 fill-current">
 							<path d="M23.954 4.569a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.691 8.094 4.066 6.13 1.64 3.161a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.061a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.937 4.937 0 004.604 3.417 9.868 9.868 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63a9.936 9.936 0 002.46-2.548l-.047-.02z"></path>
 						</svg>

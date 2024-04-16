@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div>
         <header className=" dark:text-gray-800">
-	<div className="flex items-center justify-between mx-20 py-4">
+	<div className="flex items-center justify-between mx-10 md:mx-16 py-4">
 		
             <img src={logo} className='h-8' alt="" />
             
