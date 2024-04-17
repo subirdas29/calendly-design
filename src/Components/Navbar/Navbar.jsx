@@ -89,7 +89,7 @@ const Navbar = () => {
           <div className="lg:hidden">
             <button className="p-4" onClick={toggleDropdown}>
               {isDropdownOpen ? (
-                <FaTimes className="w-6 h-6 dark:text-gray-800" />
+                <FaTimes className="w-6 h-6 dark:text-gray-700" />
               ) : (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
