@@ -106,30 +106,30 @@ const Navbar = () => {
               <ul className="absolute top-14 right-6 bg-[#006BFE]  rounded-md shadow-md z-10">
                 {/* Dropdown menu items */}
                 <li className="py-2 px-4">
-                  <a href="#" className="block text-gray-800 dark:text-white hover:text-gray-200 py-1">Individuals</a>
+                  <a href="#" className="block text-gray-800 dark:text-white hover:text-gray-300 py-1">Individuals</a>
                 </li>
                 <li className="py-2 px-4">
-                  <a href="#" className="block text-gray-800 dark:text-white  py-1">Teams</a>
+                  <a href="#" className="block text-gray-800 dark:text-white  hover:text-gray-300 py-1">Teams</a>
                 </li>
                 <li className="py-2 px-4">
-                  <a href="#" className="block text-gray-800 dark:text-white  py-1">Enterprise</a>
+                  <a href="#" className="block text-gray-800 dark:text-white  hover:text-gray-300 py-1">Enterprise</a>
                 </li>
                 <li className="py-2 px-4 flex items-center">
-                  <a href="#" className="block text-gray-800 dark:text-white  py-1">Products</a><FaChevronDown  className="text-white h-3 ml-1 w-3" alt="" />
+                  <a href="#" className="block text-gray-800 dark:text-white  hover:text-gray-300 py-1">Products</a><FaChevronDown  className="text-white h-3 ml-1 w-3" alt="" />
                 </li>
                 <li className="py-2 px-4">
-                  <a href="#" className="block text-gray-800 dark:text-white  py-1">Pricing</a>
+                  <a href="#" className="block text-gray-800 dark:text-white  hover:text-gray-300 py-1">Pricing</a>
                 </li>
                 <li className="py-2 px-4 flex items-center">
-                  <a href="#" className="block text-gray-800 dark:text-white   py-1">Resources</a><FaChevronDown  className=" text-white ml-1 h-3 w-3" alt="" />
+                  <a href="#" className="block text-gray-800 dark:text-white  hover:text-gray-300 py-1">Resources</a><FaChevronDown  className=" text-white ml-1 h-3 w-3" alt="" />
                 </li>
 
 				<li className="py-2 px-4">
-                  <a href="#" className="block text-gray-800 dark:text-white  py-1">Login</a>
+                  <a href="#" className="block text-gray-800 dark:text-white  hover:text-gray-300 py-1">Login</a>
                 </li>
 
 				<li className="py-2 px-4">
-                  <a href="#" className="block text-gray-800 dark:text-white  py-1">Get Started</a>
+                  <a href="#" className="block text-gray-800 dark:text-white  hover:text-gray-300 py-1">Get Started</a>
                 </li>
                 {/* Add more menu items as needed */}
               </ul>
