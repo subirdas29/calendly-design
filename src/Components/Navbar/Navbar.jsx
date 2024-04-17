@@ -106,7 +106,7 @@ const Navbar = () => {
               <ul className="absolute top-14 right-6 bg-[#006BFE]  rounded-md shadow-md z-10">
                 {/* Dropdown menu items */}
                 <li className="py-2 px-4">
-                  <a href="#" className="block text-gray-800 dark:text-white py-1">Individuals</a>
+                  <a href="#" className="block text-gray-800 dark:text-white hover:text-gray-200 py-1">Individuals</a>
                 </li>
                 <li className="py-2 px-4">
                   <a href="#" className="block text-gray-800 dark:text-white  py-1">Teams</a>

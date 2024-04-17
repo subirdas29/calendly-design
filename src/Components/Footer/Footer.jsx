@@ -41,7 +41,6 @@ const Footer = () => {
 				</span>
 			</button>
 			
-		
 	</div>
 </section>
 
@@ -164,7 +163,7 @@ const Footer = () => {
 			
 		</div>
 	</div>
-	<div className="py-6 text-sm text-center dark:text-gray-600 flex justify-between">
+	<div className="py-6 text-xs text-center dark:text-gray-600 flex justify-between">
 		<div>
 		Copyright Calendly 2022
 		</div>
